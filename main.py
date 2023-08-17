@@ -1,6 +1,7 @@
 import random
 import math
-from constants import chars_numbers, chars_lower, chars_specials, chars_upper, chars
+from constants import chars_numbers, chars_lower, chars_specials, chars_upper
+from create_strong_password import create_strong_password
 
 def gen_random_password():
     length = input(
